@@ -1,0 +1,9 @@
+
+
+with open('data.txt', 'w') as the_file:
+    for i in range(100000):
+        the_file.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla elit lacus, at lacinia urna ornare a. Vestibulum molestie condimentum mattis. Donec elementum enim pellentesque, dapibus sem et, dictum nunc. Nunc dapibus id eros vel imperdiet. Curabitur in leo vitae ante consequat pulvinar commodo nec orci. Curabitur id auctor mauris, dictum commodo nisl. Vestibulum metus lorem, ultricies a venenatis ut, rutrum ac nunc. Nam ac erat nulla. Quisque pellentesque elit at feugiat efficitur. Phasellus in urna purus. Etiam gravida dapibus erat ut gravida. In semper tellus risus, a dignissim erat faucibus non. Pellentesque congue sapien at nisi aliquam, nec laoreet velit ornare. Phasellus elementum laoreet faucibus. Phasellus placerat ipsum fermentum, accumsan neque id, laoreet nisl. Morbi auctor arcu eu libero convallis maximus.')
+        # the_file.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla elit lacus, at lacinia urna ornare a. Vestibulum molestie condimentum mattis. Donec elementum enim pellentesque, dapibus sem et, dictum nunc. Nunc dapibus id eros vel imperdiet. Curabitur in leo vitae ante consequat pulvinar commodo nec orci. Curabitur id auctor mauris, dictum commodo nisl. Vestibulum metus lorem, ultricies a venenatis ut, rutrum ac nunc. Nam ac erat nulla. Quisque pellentesque elit at feugiat efficitur. Phasellus in urna purus. Etiam gravida dapibus erat ut gravida. In semper tellus risus, a dignissim erat faucibus non. Pellentesque congue sapien at nisi aliquam, nec laoreet velit ornare. Phasellus elementum laoreet faucibus. Phasellus placerat ipsum fermentum, accumsan neque id, laoreet nisl. Morbi auctor arcu eu libero convallis maximus.'.rstrip())
+
+
+
